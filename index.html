@@ -8,7 +8,9 @@
     <meta name="keywords" content="decoracion, chile, cemento-decorativo">
     <title>Ro Decoarte</title>
     <!--Google Fonts-->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@0,400;0,700;1,400;1,700&family=Whisper&display=swap" rel="stylesheet">
     <!--FontAwesome-->
     <script src="https://kit.fontawesome.com/84826d4a17.js" crossorigin="anonymous"></script>
     <!--Bootstrap 5.3-->
@@ -21,11 +23,10 @@
     
 <body>
     <!--NAVBAR-- smoth scroll-->
-    <nav class="navbar navbar-expand-lg" style="background-color: purple">
+    <nav class="navbar navbar-expand-lg" style="background-color: black">
       <div class="container-fluid">
         <a class="navbar-brand" href="index.html">
-          <img src="assets/img/logo.nav.jpg" alt="Logo" width="30" height="24" class="d-inline-block align-text-top">
-          Ro Decoarte
+          <img src="assets/img/logo.nav.jpg" alt="Logo" width="80" height="80" style="border-radius: 35%;" class="d-inline-block align-text-center">
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
           aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +44,7 @@
               <a class="nav-link" href="#destacados">Destacados</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#contacto">Dudas? Contactame..!</a>
+              <a class="nav-link" href="#contacto">Contactame</a>
             </li>
           </ul>
         </div>
@@ -55,19 +56,16 @@
       <div id="carouselExample" class="carousel slide">
         <div class="carousel-inner">
           <div class="carousel-item active">
-            <img src="assets/img/carousel.png" class="d-block w-100" alt="...">
+            <div class="d-flex justify-content-center">
+                <img src="assets/img/carousel.png" class="img-fluid" alt="...">
+                <img src="assets/img/carousel1.png" class="img-fluid" alt="...">
+            </div> 
           </div>
           <div class="carousel-item">
-            <img src="assets/img/carousel1.png" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel2.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel3.jpeg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item">
-            <img src="assets/img/carousel4.jpeg" class="d-block w-100" alt="...">
+            <div class="d-flex justify-content-center">
+                <img src="assets/img/carousel2.png" class="img-fluid" alt="...">
+                <img src="assets/img/carousel3.png" class="img-fluid" alt="...">
+            </div>
           </div>
         </div>
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -88,24 +86,24 @@
       <div class="row mt-5">
         <div class="col-12 col-lg-4">
             <i class="fa-solid fa-brush text-center"></i>
-          <p><br>Ro Decoarte nace como una necesidad de separar a la mujer de la mamá, de buscar un proposito y apaciguar las esas energias creativas que buscaban hacia donde emerger. En mis manos y el cemento encontre ese ideal.  </p>
+            <p class="parrafoRo"><br>Ro Decoarte nace como una necesidad de separar a la mujer de la mamá, de buscar un proposito y apaciguar las esas energias creativas que buscaban hacia donde emerger. En mis manos y el cemento encontre ese ideal.  </p>
         </div>
         <div class="col-12 col-lg-4">
-            <i class="fa-solid fa-wine-glass-crack text-center"></i>
-          <p>Si bien mis comienzos fueron de mucho ensayo y error, esto nunca me detuvo, al contrario! Cada pieza fallida era un empujon de motivación para seguir investigando, desarrollando y mejorando mi tecnica.</p>
+            <i class="fa-solid fa-heart-crack text-center"></i>
+            <p class="parrafoRo"><br>Si bien mis comienzos fueron de mucho ensayo y error, esto nunca me detuvo, al contrario! Cada pieza fallida era un empujon de motivación para seguir investigando, desarrollando y mejorando mi tecnica.</p>
         </div>
         <div class="col-12 col-lg-4">
             <i class="fa-solid fa-hand-holding-heart text-center"></i>
-          <p><br>En Ro encontraras piezas unicas, hand made, llenas de detalles y amor. Con materia prima como la arena, traida de cada playa que visito, es por esto que en cada compra te llevaras un poco de mi y tambien de nuestro hermoso Chile.</p>
+            <p class="parrafoRo"><br>En Ro encontraras piezas unicas, hand made, llenas de detalles y amor. Con materia prima como la arena, traida de cada playa que visito, es por esto que en cada compra te llevaras un poco de mi y tambien de nuestro hermoso Chile.</p>
         </div>
       </div>
     </section>
   
     <!--DESTACADOS-- incluye 3 cards-->
     <section class="container" id="destacados">
-      <h2 class="text-center">DESTACADOS</h2>
+      <h2 class="text-center">Destacados</h2>
       <hr>
-      <p>Cada pieza es desarrollada a partir de la tecnica de cemento decorativo, un proceso medianamente largo que puede durar hasta 2 semanas. Luego algunos productos reciben una capa decorativa de oro, para finalmente ser pulidas y asi poder llegar a sus manos.</p>
+      <p class="parrafo text-center">Cada pieza es desarrollada a partir de la tecnica de cemento decorativo, un proceso medianamente largo que puede durar hasta 2 semanas. Luego algunos productos reciben una capa decorativa de oro, para finalmente ser pulidas y asi poder llegar a sus manos.</p>
       <div class="row justify-content-center">
         <div class="card col-lg-3">
           <img src="assets/img/card 1.jpeg" class="card-img-top img-fluid" alt="...">
@@ -124,7 +122,7 @@
           </div>
         </div>
         <div class="card col-lg-3">
-          <img src="assets/img/card3.webp" class="card-img-top img-fluid" alt="...">
+          <img src="assets/img/card3.jpeg" class="card-img-top img-fluid" alt="...">
           <div class="card-body">
             <h3>Lorem ipsum dolor sit amet</h3>
             <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
@@ -140,7 +138,7 @@
       <hr>
       <div class="mb-3">
         <label for="exampleFormControlInput1" class="form-label">Nombre:</label>
-        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo...">
+        <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Escribe tu nombre...">
       </div>
       <div class="mb-3">
         <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>

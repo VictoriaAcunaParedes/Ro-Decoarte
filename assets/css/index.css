@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+/*pt serif*/
+body {
+    background-color: black;
+    color: white;
+    font-family: "PT Serif", serif;
+}
+h2 {
+    font-family: "Whisper", cursive;
+    font-size: 45px;
+    font-weight: 500;
+}
+
+/*CSS navbar section*/
+.navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding-left: 8%;
+    padding-right: 8%;
+    z-index: 1000;
+}
+
+.navbar-brand {
+    color: white;
+}
+
+.nav-link {
+    color: white;
+}
+
+/*CSS quienes-somos section*/
+#quienes-somos i {
+    width: 350px;
+    background-color: rgb(3, 77, 90);
+    padding: 2%;
+    font-size: 30px;
+    
+}
+.parrafoRo {
+    text-align: center;
+}
+
+/*CSS cards section*/
+.parrafo {
+    padding: 2%;
+}
+.card-img-top {
+    max-width: 100%;
+}
+
+.card {
+    padding: 0%;
+    background-color: rgb(3, 77, 90);
+    max-width: 250px;
+    margin-right: 10px;
+    margin-left: 20px;
+}
+
+/*CSS contacto section*/
+.form {
+    padding: 8%;
+    padding-right: 20%;
+    padding-left: 20%;
+}
+
+/*Css footer */
+footer {
+    background-color: rgb(3, 77, 90);
+    color: white;
+    padding: 2%;
+}
+
+
+footer p {
+    font-family: "Whisper", cursive;;
+    font-size: 50px;
+    text-align: center;
+}
+
+/* Estilos específicos para dispositivos móviles */
+@media only screen and (max-width: 767px) {
+    .row.justify-content-center {
+        text-align: center;
+      }
+    
+      .card {
+        margin-top: 10px;
+      }
+      h2 {
+        margin-top: 10px;
+      }
+  }
