@@ -5,9 +5,12 @@
 }
 /*pt serif*/
 body {
-    background-color: black;
+    background-image:url("../img/bg-image.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
     color: white;
-    font-family: "PT Serif", serif;
+    font-family: "Roboto Condensed", sans-serif;
 }
 h2 {
     font-family: "Whisper", cursive;
@@ -32,11 +35,17 @@ h2 {
 .nav-link {
     color: white;
 }
+.separacion-letras {
+    letter-spacing: 5px;
+    font-weight: 200;
+}
+.contacto {
+    font-weight: 700;
+}
 
 /*CSS quienes-somos section*/
 #quienes-somos i {
     width: 350px;
-    background-color: rgb(3, 77, 90);
     padding: 2%;
     font-size: 30px;
     
@@ -55,7 +64,8 @@ h2 {
 
 .card {
     padding: 0%;
-    background-color: rgb(3, 77, 90);
+    background-color: rgb(46, 56, 58);
+    color: white;
     max-width: 250px;
     margin-right: 10px;
     margin-left: 20px;
